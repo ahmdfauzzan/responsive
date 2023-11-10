@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Tinggi 100% dari viewport */
+  width: 100%;   /* Lebar 100% */
+  min-height: 100%; /* Atur min-height sesuai dengan konten jika perlu */
+}
+
+.sizemovielist {
+  font-size: calc(15px + 3vmin);
+}
+
+.bg-header {
+    background-image: url("https://image.tmdb.org/t/p/original//iKUwhA4DUxMcNKu5lLSbDFwwilk.jpg");
+    background-size: cover;
+}
