@@ -4,7 +4,7 @@ export default function Responsive() {
   return (
     <div>
       <div className="flex justify-end">
-        <div className="bg-red-500 w-[30vw] h-[10vh] mobile:mr-5 tablet:w-[100vw] tablet:mx-5 flex justify-center items-center text-3xl">Merah</div>
+        <div className="bg-red-500 mr-5 w-[30vw] h-[10vh] mobile:mr-5 tablet:w-[100vw] tablet:mx-5 flex justify-center items-center text-3xl">Merah</div>
       </div>
 
       <div className="m-5 h-[85vh] flex-col flex mobile:flex-col tablet:flex-col web:flex">
